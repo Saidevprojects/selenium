@@ -10,7 +10,7 @@ public class Browser_launch {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com");
-		driver.findElement(By.className("gLFyf")).sendKeys("Sai");
+		driver.findElement(By.className("gLFyf")).sendKeys("Kalavathi");
 		Thread.sleep(2000);
 	//	driver.manage().window().minimize();
 	//	driver.manage().window().fullscreen();
