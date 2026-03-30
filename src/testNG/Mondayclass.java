@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 public class Mondayclass {
 	WebDriver driver;  
 	@Test
-  public void google() {
-			  driver.get("https://www.google.com");
+  public void facebook() {
+			  driver.get("https://www.facebook.com");
   }
   @BeforeTest
-  public void beforeTest() {
-	  
+  public void beforeTest() { 
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
   }
 
 }
+//Kalavathi
