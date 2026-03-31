@@ -8,8 +8,8 @@ import org.testng.annotations.Test;
 public class Mondayclass {
 	WebDriver driver;  
 	@Test
-  public void facebook() {
-			  driver.get("https://www.facebook.com");
+  public void gmail() {
+			  driver.get("https://www.gmail.com");
   }
   @BeforeTest
   public void beforeTest() { 
